@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Sora', sans-serif;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-abertura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.link-abertura{
+    text-decoration: none;
+    color: #502B6B;
+    font-weight: 700;
+    background-color: #DCB6F8;
+    padding: 1.5rem 10rem;
+    border-radius: 1rem;
+}
