@@ -11,7 +11,7 @@ body{
     font-family: 'Sora', sans-serif;
     min-height: 100vh;
     min-width: 100vh;
-    background-image: url(../imgens/background.png);
+    background-image: url(../imagens/background.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
