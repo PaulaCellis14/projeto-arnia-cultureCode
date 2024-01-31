@@ -10,7 +10,14 @@
 
 body{
     font-family: 'Sora', sans-serif;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
     max-width: 100vw;
+    padding-bottom: 3rem;
 }
 
 .cabecalho{
@@ -19,7 +26,7 @@ body{
     background-size: cover;
     border-radius: 0 0 2rem 2rem;
     color: #FFFFFF;
-    min-width: 100vw;
+    max-width: 100vw;
 }
 
 .perfil-menu{
@@ -100,9 +107,59 @@ a{
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
     position: absolute;
-    bottom: -9%;
+    bottom: -6.5%;
+    box-shadow: 0 7px 30px 0 #BBC0CD;
 }
 
 .filtro input{
     min-width: 30em;
+    outline: none;
 }
+
+.container{
+    margin: 0 auto;
+}
+
+.produtos{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.produtos>div{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem
+}
+
+.item{
+    width: 22.9%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.item div p{
+    font-weight: 600;
+    color: #212121;
+}
+
+.item div p:last-child{
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #9E9E9E;
+    margin-top: 0.2rem;
+}
+
+button{
+    padding: 1rem;
+    background-color: #502B6B;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+
+
